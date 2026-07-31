@@ -3,7 +3,7 @@ import decor from '../assets/decorHero.png';
 
 function Hero() {
     return (
-        <section className="relative bg-white pt-4 pb-15 md:pt-8 md:pb-30 overflow-hidden">
+        <section className="relative z-20 bg-white pt-4 pb-15 md:pt-8 md:pb-30 overflow-hidden">
             <div className="container mx-auto px-6 md:px-12 lg:px-18 relative">
                 <div className="grid grid-cols-1 md:grid-cols-[1.2fr_1fr] gap-8 items-center">
                     {/* bagian kiri (teks dan tombol) */}
@@ -41,11 +41,11 @@ function Hero() {
             </div>
 
             {/* dekorasi bawah */}
-            <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-0">
+            <div className="absolute bottom-0 left-0 w-full leading-none z-0 translate-y-[4px]">
                 <img
                     src={decor}
                     alt="Wave"
-                    className="w-full h-auto object-contain relative z-10"
+                    className="w-full h-auto object-cover block relative z-30"
                 />
             </div>
         </section>

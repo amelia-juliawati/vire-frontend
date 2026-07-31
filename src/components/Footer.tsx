@@ -18,14 +18,14 @@ function Footer() {
                             href="https://instagram.com/vire.official1"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center gap-2 hover:opacity-75 transition-opacity duration-300 mt-1"
+                            className="flex items-center gap-2 transition-opacity duration-300 mt-1"
                         >
                             <img
                                 src={logoIg}
                                 alt="instagram VIRE"
-                                className="w-full h-auto object-contain relative z-10"
+                                className="w-full max-w-[28px] h-auto object-contain relative z-10"
                             />
-                            <span className="text-gray-600 font-medium text-sm md:text-base">vire.official1</span>
+                            <span className="text-gray-600 font-small text-sm md:text-base">vire.official1</span>
                         </a>
                     </div>
 

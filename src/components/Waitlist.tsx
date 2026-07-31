@@ -50,7 +50,7 @@ function Waitlist() {
     };
 
     return (
-        <section id="waitlist-section" className=" -mt-2 min-h-screen py-20 bg-white flex items-center overflow-hidden">
+        <section id="waitlist-section" className=" -mt-3 min-h-screen py-20 bg-white flex items-center overflow-hidden">
 
             <div 
                 className={`fixed bottom-8 left-8 z-50 px-6 py-4 border rounded-lg shadow-md font-medium flex items-center justify-between gap-4 transition-all duration-500 ease-in-out transform ${
@@ -86,8 +86,8 @@ function Waitlist() {
                     </div>
 
                     {/* tengah (teks) */}
-                    <div className="w-full md:w-4/12 text-center md:text-left self-start">
-                        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 tracking-tight leading-tight text-blue-500 text-left">
+                    <div className="w-full md:w-4/12 text-center md:text-left self-start mt-10 md:mt-0">
+                        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 tracking-tight leading-tight text-blue-500">
                             Siap Bawa Bisnis Anda Naik Kelas Lebih Cepat?
                         </h1>
 
@@ -158,7 +158,7 @@ function Waitlist() {
                                     name="is_subscribed"
                                     checked={formData.is_subscribed}
                                     onChange={handleChange}
-                                    className="appearance-none relative mt-0.5 w-6 h-6 border-2 border-blue-500 rounded-sm bg-white checked:bg-blue-500 checked:border-blue-500 cursor-pointer outline-none after:content-[''] after:absolute after:hidden checked:after:block after:w-[7px] after:h-[13px] after:border-r-2 after:border-b-2 after:border-white after:rotate-45 after:left-[6px] after:top-[2px]"
+                                    className="shrink-0 appearance-none relative mt-0.5 w-6 h-6 border-2 border-blue-500 rounded-sm bg-white checked:bg-blue-500 checked:border-blue-500 cursor-pointer outline-none after:content-[''] after:absolute after:hidden checked:after:block after:w-[7px] after:h-[13px] after:border-r-2 after:border-b-2 after:border-white after:rotate-45 after:left-[6px] after:top-[2px]"
                                 />
                                 <span className="text-sm text-blue-500 font-medium leading-relaxed">
                                     Kirimkan saya pembaruan produk, info rilis, dan penawaran eksklusif dari VIRE ke email ini.
