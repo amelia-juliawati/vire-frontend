@@ -17,14 +17,17 @@ function Hero() {
                             Cara paling praktis delegasikan anggaran operasional ke setiap divisi. Setujui permintaan dana dalam hitungan detik dan pantau pengeluaran bisnis tanpa ribet.
                         </p>
 
-                        <div>
-                            <a
-                                href="#waitlist-section"
-                                className="inline-block bg-orange-100 text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-orange-200 hover:text-orange-700 hover:shadow-sm active:bg-orange-300 active:text-orange-800 transition-all duration-300"
-                            >
-                                Buat Akun Sekarang
-                            </a>
-                        </div>
+                        <button
+                            onClick={() => {
+                                const element = document.getElementById('waitlist-section');
+                                if (element) {
+                                    element.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }}
+                            className="w-fit inline-block bg-orange-100 text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-orange-200 hover:text-orange-700 hover:shadow-sm active:bg-orange-300 active:text-orange-800 transition-all duration-300"
+                        >
+                            Buat Akun Sekarang
+                        </button>
 
                     </div>
 
