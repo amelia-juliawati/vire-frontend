@@ -95,7 +95,7 @@ function Waitlist() {
                             Bergabunglah sebagai early adopter Vire hari ini dan nikmati gratis biaya langganan fitur AI Analysis selama 6 bulan pertama.
                         </p>
 
-                        <p className="text-red text-sm font-semibold">
+                        <p className="mb-6 md: mb-0 text-red text-sm font-semibold">
                             *Slot terbatas hanya untuk 500 pemilik bisnis pertama!
                         </p>
                     </div>
@@ -169,7 +169,7 @@ function Waitlist() {
                             <button
                                 type="submit"
                                 disabled={status.loading}
-                                className={`w-full mx-2 py-3 rounded-lg font-bold text-white transition-all duration-300 ${status.loading ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-400 hover:bg-blue-500 hover:shadow-sm active:bg-blue-600'}`}
+                                className={`w-full py-3 rounded-lg font-bold text-white transition-all duration-300 ${status.loading ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-400 hover:bg-blue-500 hover:shadow-sm active:bg-blue-600'}`}
                             >
                                 {status.loading ? 'Memproses...' : 'Daftar Sekarang'}
                             </button>
