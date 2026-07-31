@@ -20,7 +20,7 @@ function Service() {
                             VirePocket
                         </h3>
 
-                        <p className="text-gray-800 leading-relaxed text-sm md:text-base">
+                        <p className="text-gray-800 leading-relaxed text-md md:text-base">
                             Bagikan virtual card ke tiap divisi dengan limit anggaran yang bisa diatur sesuka Anda.
                         </p>
                     </div>
@@ -33,7 +33,7 @@ function Service() {
                             VireReceipt
                         </h3>
 
-                        <p className="text-gray-800 leading-relaxed text-sm md:text-base">
+                        <p className="text-gray-800 leading-relaxed text-md md:text-base">
                             Cukup foto nota belanja, AI kami akan otomatis mencatatnya tanpa perlu input manual.
                         </p>
                     </div>
@@ -46,7 +46,7 @@ function Service() {
                             VireDashboard
                         </h3>
 
-                        <p className="text-gray-800 leading-relaxed text-sm md:text-base">
+                        <p className="text-gray-800 leading-relaxed text-md md:text-base">
                             Pantau semua pengeluaran divisi dalam satu layar secara aman dan real-time.
                         </p>
                     </div>
