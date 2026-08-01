@@ -4,7 +4,7 @@ import vireReceipt from '../assets/vireReceipt.png';
 
 function Service() {
     return (
-        <section className="relative z-10 -mt-10 min-h-screen flex flex-col justify-center py-20 bg-gradient-to-b from-[#809DE5] to-[#9CB6F8]">
+        <section className="relative z-10 -mt-4 min-h-screen flex flex-col justify-center py-20 bg-gradient-to-b from-[#809DE4] to-[#9CB6F8]">
             <div className="container mx-auto px-6 md:px-12 lg:px-18 max-w-6xl">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 md:mb-16 lg:mb-20 tracking-tight leading-tight text-white text-center">
                     Layanan Kami
