@@ -3,7 +3,7 @@ import decor from '../assets/decorHero.png';
 
 function Hero() {
     return (
-        <section className="relative z-20 bg-white pt-2 pb-28 md:pt-6 md:pb-38 lg:pt-8 lg:pb-56 overflow-hidden">
+        <section className="relative z-20 bg-white pt-2 pb-28 md:pt-6 md:pb-36 lg:pt-8 lg:pb-48 overflow-hidden">
             <div className="container mx-auto px-6 md:px-12 lg:px-18 relative">
                 <div className="grid grid-cols-1 md:grid-cols-[1.2fr_1fr] gap-8 items-center">
                     {/* bagian kiri (teks dan tombol) */}
