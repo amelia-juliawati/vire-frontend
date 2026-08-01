@@ -3,7 +3,7 @@ import decor from '../assets/decorHero.png';
 
 function Hero() {
     return (
-        <section className="relative z-20 bg-white pt-4 pb-20 md:pt-8 md:pb-30 overflow-hidden">
+        <section className="relative z-20 bg-white pt-2 pb-28 md:pt-6 md:pb-42 overflow-hidden">
             <div className="container mx-auto px-6 md:px-12 lg:px-18 relative">
                 <div className="grid grid-cols-1 md:grid-cols-[1.2fr_1fr] gap-8 items-center">
                     {/* bagian kiri (teks dan tombol) */}
@@ -17,18 +17,28 @@ function Hero() {
                             Cara paling praktis delegasikan anggaran operasional ke setiap divisi. Setujui permintaan dana dalam hitungan detik dan pantau pengeluaran bisnis tanpa ribet.
                         </p>
 
-                        <button
-                            onClick={() => {
-                                const element = document.getElementById('waitlist-section');
-                                if (element) {
-                                    element.scrollIntoView({ behavior: 'smooth' });
-                                }
-                            }}
-                            className="w-fit inline-block bg-orange-100 text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-orange-200 hover:text-orange-700 hover:shadow-sm active:bg-orange-300 active:text-orange-800 transition-all duration-300"
-                        >
-                            Buat Akun Sekarang
-                        </button>
+                        <div className="flex flex-row items-center gap-4">
+                            <button
+                                onClick={() => {
+                                    const element = document.getElementById('waitlist-section');
+                                    if (element) {
+                                        element.scrollIntoView({ behavior: 'smooth' });
+                                    }
+                                }}
+                                className="w-fit inline-block bg-blue-400 text-blue-50 px-8 py-3 rounded-lg font-bold hover:bg-blue-500 hover:shadow-sm active:bg-blue-600 transition-all duration-300"
+                            >
+                                Buat Akun Sekarang
+                            </button>
 
+                            <a
+                                href="https://www.figma.com/proto/YdWkdOpcoGG7fnxdPp0oBX/Gemastik-19?node-id=228-516&t=uTUGbABDXnISiuSo-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=228%3A516"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-fit inline-block bg-orange-100 text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-orange-200 hover:text-orange-700 hover:shadow-sm active:bg-orange-300 active:text-orange-800 transition-all duration-300 cursor-pointer text-center"
+                            >
+                                Coba Sekarang
+                            </a>
+                        </div>
                     </div>
 
                     {/* bagian kiri (gambar) */}
