@@ -31,7 +31,7 @@ function Hero() {
                             </button>
 
                             <a
-                                href="https://www.figma.com/proto/YdWkdOpcoGG7fnxdPp0oBX/Gemastik-19?node-id=228-516&t=uTUGbABDXnISiuSo-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=228%3A516"
+                                href="https://www.figma.com/proto/YdWkdOpcoGG7fnxdPp0oBX/Gemastik-19?node-id=228-1042&t=uTUGbABDXnISiuSo-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=228%3A1042"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-fit inline-block bg-orange-100 text-orange-600 px-8 py-3 rounded-lg font-bold hover:bg-orange-200 hover:text-orange-700 hover:shadow-sm active:bg-orange-300 active:text-orange-800 transition-all duration-300 cursor-pointer text-center"
